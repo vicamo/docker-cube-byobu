@@ -2,6 +2,9 @@ FROM vicamo/ubuntu-sdk:frameworks-vivid-i386
 
 RUN apt-get update \
 	&& apt-get install --no-install-recommends -y --force-yes \
+		bash-completion \
+		bzr-builddeb \
+		ccache \
 		sudo \
 		time \
 		vim \
