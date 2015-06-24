@@ -2,6 +2,7 @@ FROM vicamo/android-pdk:sid-openjdk-7-jdk
 
 RUN apt-get update \
 	&& apt-get install --no-install-recommends -y --force-yes \
+		bash-completion \
 		sudo \
 		time \
 		vim \
