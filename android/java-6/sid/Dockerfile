@@ -1,4 +1,4 @@
-FROM vicamo/android-pdk:sid-oracle-java-6-jdk
+FROM vicamo/android-pdk:sid-oracle-java-6
 
 RUN apt-get update \
 	&& apt-get install --no-install-recommends -y --force-yes \

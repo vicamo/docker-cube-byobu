@@ -1,4 +1,4 @@
-FROM vicamo/android-pdk:sid-openjdk-7-jdk
+FROM vicamo/android-pdk:sid-openjdk-7
 
 RUN apt-get update \
 	&& apt-get install --no-install-recommends -y --force-yes \
