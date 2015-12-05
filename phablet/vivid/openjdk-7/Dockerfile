@@ -1,4 +1,4 @@
-FROM vicamo/ubuntu-phablet:vivid-openjdk-7
+FROM phablet/platform-devel:vivid-openjdk-7
 
 RUN apt-get update \
 	&& apt-get install --no-install-recommends -y --force-yes \

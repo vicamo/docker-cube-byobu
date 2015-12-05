@@ -1,4 +1,4 @@
-FROM vicamo/ubuntu-phablet-jiexi:latest
+FROM phablet/platform-devel:maruko
 
 RUN apt-get update \
 	&& apt-get install --no-install-recommends -y --force-yes \

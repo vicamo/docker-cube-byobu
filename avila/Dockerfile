@@ -1,4 +1,4 @@
-FROM vicamo/ubuntu-phablet-avila:latest
+FROM phablet/platform-devel:frieza
 
 RUN apt-get update \
 	&& apt-get install --no-install-recommends -y --force-yes \

@@ -1,4 +1,4 @@
-FROM vicamo/ubuntu-phablet-tangxi:latest
+FROM phablet/platform-devel:arale
 
 ENV JENKINS_UID=105 \
 	JENKINS_GID=108 \

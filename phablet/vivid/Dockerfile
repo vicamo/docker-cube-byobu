@@ -1,4 +1,4 @@
-FROM vicamo/ubuntu-phablet:vivid
+FROM phablet/platform-devel:vivid-oracle-java-6
 
 RUN apt-get update \
 	&& apt-get install --no-install-recommends -y --force-yes \

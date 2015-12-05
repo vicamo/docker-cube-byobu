@@ -1,4 +1,4 @@
-FROM vicamo/ubuntu-phablet-tangxi:latest
+FROM phablet/platform-devel:arale
 
 RUN apt-get update \
 	&& apt-get install --no-install-recommends -y --force-yes \

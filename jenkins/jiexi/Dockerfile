@@ -1,4 +1,4 @@
-FROM vicamo/ubuntu-phablet-jiexi:latest
+FROM phablet/platform-devel:maruko
 
 ENV JENKINS_UID=105 \
 	JENKINS_GID=108 \
