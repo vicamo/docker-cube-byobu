@@ -1,4 +1,4 @@
-FROM vicamo/ubuntu-sdk:frameworks-vivid-i386
+FROM phablet/ubuntu-sdk-frameworks:vivid-i386
 
 RUN apt-get update \
 	&& apt-get install --no-install-recommends -y --force-yes \
