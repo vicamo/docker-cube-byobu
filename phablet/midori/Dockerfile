@@ -3,6 +3,9 @@ FROM phablet/platform-devel:midori
 RUN apt-get update \
 	&& apt-get install --no-install-recommends -y --force-yes \
 		bash-completion \
+		colormake \
+		man-db \
+		manpages-posix-dev \
 		sudo \
 		time \
 		vim \
