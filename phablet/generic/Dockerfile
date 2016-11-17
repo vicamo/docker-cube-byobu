@@ -5,7 +5,7 @@ RUN apt-get update \
 		bash-completion \
 		colormake \
 		man-db \
-		manpages-posix-dev \
+		manpages-dev \
 		sudo \
 		time \
 		vim \
